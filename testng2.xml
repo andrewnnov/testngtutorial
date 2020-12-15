@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <test name="maventestng">
+    <classes>
+      <class name="seleniumtests.AppiumTest"/>
+      <class name="seleniumtests.RESTAPITest"/>
+      <class name="seleniumtests.SeleniumTest"/>
+    </classes>
+  </test> <!-- maventestng -->
+</suite> <!-- Default Suite -->
